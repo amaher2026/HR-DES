@@ -1,0 +1,1 @@
+var i={SAR:1,USD:3.75,EUR:4.06,GBP:4.78,AED:1.0211,KWD:12.21,QAR:1.03,BHD:9.95,OMR:9.74,JOD:5.29,EGP:.0763};function s(n,t=[]){let r=(n||`SAR`).toUpperCase();if(r===`SAR`)return 1;let e=+(t.find(o=>o.code===r)?.rate??0);return e>0?e:i[r]??1}var c=(n,t,r=[])=>Math.round((+n||0)*s(t,r)*100)/100;export{s as n,c as t};

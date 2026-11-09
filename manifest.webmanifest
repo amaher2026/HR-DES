@@ -1,0 +1,49 @@
+{
+  "name": "HR Link",
+  "short_name": "HR Link",
+  "description": "HR Link — نظام إدارة الموارد البشرية (نسخة المراجعة)",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#4a2bae",
+  "icons": [
+    {
+      "src": "icons/hrlink-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/hrlink-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/hrlink-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/hrlink.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "طلب احتياج وظيفي",
+      "short_name": "طلب احتياج",
+      "description": "اطلب موظفين لإدارتك من الجوال",
+      "url": "./#/m/requests",
+      "icons": [
+        {
+          "src": "icons/hrlink-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
